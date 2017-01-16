@@ -1,0 +1,321 @@
+body {
+  width: 100%;
+  font-size: 14px;
+  background-color: white;
+  font-family: Arial;
+  color: black;
+  line-height: 1;
+  margin: 0px;
+}
+#menu {
+  background-color: black;
+  position: fixed;
+  height: 70px;
+  z-index: 99;
+}
+.wm {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.wc {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 1000px;
+}
+.g12 {
+  width: 100%;
+  display: inline-block;
+  padding-left: 13px;
+  padding-right: 13px;
+  min-height: 1px;
+  float: left;
+}
+#menu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li {
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  line-height: 68px;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+#menu ul li a {
+    color: #fff;
+    text-decoration: blink;
+    font-size: 16px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+#menu ul li a:hover {
+    color: #EB5C4C;
+}
+.parallax-mirror {
+  visibility: visible;
+  z-index: -100;
+  position: fixed;
+  top: 69px;
+  left: 0px;
+  overflow: hidden;
+  transform: translate3d(0px, 0px, 0px);
+  height: 100%;
+  width: 100%;
+}
+.parallax-slider {
+  transform: translate3d(0px, 0px, 0px);
+  top: -48.3px;
+  left: -165px;
+  height: 100%;
+  width: 100%;
+  max-width: none;
+}
+.wrapper {
+  float: left;
+  width: 100%;
+}
+#slide-1 {
+    padding: 50px 0 30px;
+    margin-top: 69px;
+}
+.no_padd {
+    padding-left: 0;
+    padding-right: 0;
+}
+#slide-1 .left {
+    margin-right: 0;
+    position: relative;
+}
+.g8 {
+    width: 66.6666%;
+    display: inline-block;
+    float: left;
+    padding-left: 13px;
+    padding-right: 13px;
+    min-height: 1px;
+}
+#slide-1 .left h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+#slide-1 .left h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+}
+.fs-18 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+#slide-1 .left .img_sl {
+    margin: 15px 0 0 20px;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+#slide-1 .left .label {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+.label {
+    background-image: url(../img/bg-label.png);
+    width: 125px;
+    height: 130px;
+}
+#slide-1 .left .label .icons {
+    background-image: url(../img/icon.png);
+    height: 70px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: 28px 30px;
+    overflow: hidden;
+}
+#slide-1 .left .bg_old_price {
+    height: 60px;
+    position: absolute;
+    right: 10px;
+    top: 160px;
+    white-space: nowrap;
+    background-color: rgba(255,255,255,0.7);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+#slide-1 .left .bg_old_price .l_price {
+    float: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 3px;
+    width: 148px;
+    white-space: pre-line;
+    padding: 11px;
+}
+#slide-1 .left .bg_old_price .r_old_price {
+    float: left;
+    font-size: 19px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 12px 10px 25px;
+    background-image: url(../img/price.png);
+    height: 61px;
+    background-repeat: no-repeat;
+    text-decoration: line-through;
+}
+#slide-1 .left .bg_old_price .r_price {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 9px;
+}
+.r_old_price .r_price {
+    float: right;
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.g4 {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    padding-left: 13px;
+    padding-right: 13px;
+    min-height: 1px;
+}
+#slide-1 .right .phone {
+    background-color: rgba(255,255,255,0.79);
+    padding: 13px 25px 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    float: left;
+    display: inline-block;
+}
+#slide-1 .right .phone .call {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+}
+#slide-1 .right .phone span {
+    vertical-align: super;
+    font-size: 10px;
+}
+#slide-1 .right .phone .numb {
+    font-size: 27px;
+    font-weight: 700;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.form {
+    background-color: rgba(255,255,255,0.7);
+    padding: 25px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.slogan {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #192c35;
+    color: #fff;
+    padding: 25px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+input, button {
+    outline: none;
+    font-family: Clear Sans, Calibri, Arial, sans-serif;
+}
+.inp_f {
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 60px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 60px;
+    color: #2c353a;
+}
+button {
+    outline: none;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #ff2020;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(44,53,58,0.32);
+    line-height: 58px;
+    cursor: pointer;
+    vertical-align: bottom;
+    width: 100%;
+}
+.logo {
+    height: 32px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+#gap_1 {
+    border-top: 10px solid #192c35;
+    border-bottom: 10px solid #192c35;
+    padding: 45px 0;
+}
+#gap_1 .plus .label #money {
+    background-position: -77px 12px;
+}
+#gap_1 .plus .label .icons {
+    width: 95px;
+    height: 80px;
+}
+.label .icons {
+    background-image: url(../img/icon.png);
+    height: 70px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+#gap_1 .plus p {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 32px 0;
+}
+#gap_1 .plus .label #delivery {
+    background-position: -77px -63px;
+}
+#gap_1 .plus .label #clock {
+    background-position: -164px 10px;
+}
+#gap_1 .plus .label {
+    padding: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
