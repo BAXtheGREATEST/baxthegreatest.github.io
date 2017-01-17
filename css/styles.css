@@ -28,7 +28,6 @@ body {
   padding-left: 13px;
   padding-right: 13px;
   min-height: 1px;
-  float: left;
 }
 .mblock2__mul {
   display: flex;
