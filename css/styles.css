@@ -329,3 +329,177 @@ button {
     background-position: -164px 10px;
 }
 
+
+.coop {
+    float: left;
+    width: 100%;
+}
+.cblock1 {
+    padding: 50px 0;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.cblock2 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 1000px;
+}
+.cblock3 {
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.cblock2__title {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 40px;
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.c3colleft {
+    width: 50%;
+}
+.step {
+    background-image: url(../img/bg_step.png);
+    height: 110px;
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 3px;
+    padding: 40px 20px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.sleft {
+    position: relative;
+    width: 40%;
+}
+.simg {
+    background-image: url(../img/ic_step.png);
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+.snumb1 {
+    background-color: #ff2020;
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border-radius: 40px;
+}
+.snumb2 {
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.sright {
+    width: 60%;
+    float: right;
+    padding: 5px 0;
+}
+.sright__title {
+    margin-bottom: 10px;
+    text-transform: initial;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sright__text {
+    font-size: 14px;
+}
+#order {
+    background-position: 10px 10px;
+}
+#receipt {
+    background-position: 10px -105px;
+}
+#confirm {
+    background-position: -115px 10px;
+}
+#pay {
+    background-position: -115px -105px;
+}
+.cform1 {
+    border-top: 10px solid #192c35;
+    border-bottom: 10px solid #192c35;
+    padding: 45px 0;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.cform2 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 1000px;
+}
+.cform3 {
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.c3slogan {
+    background-color: #192c35;
+    border-radius: 3px;
+    padding: 25px;
+}
+.c3span {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+}
+.c3form {
+    display: flex;
+    justify-content: space-around;
+}
+.c3inp1 {
+    width: 45%;
+    margin-right: 20px;
+    margin-bottom: 0;
+    outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 60px;
+    color: #2c353a;
+}
+.c3inp2 {
+    width: 25%;
+    margin-right: 20px;
+    margin-bottom: 0;
+    outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 60px;
+    color: #2c353a;
+}
+.c3button {
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #ff2020;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(44,53,58,0.32);
+    line-height: 58px;
+    cursor: pointer;
+    vertical-align: bottom;
+    width: 30%;
+}
