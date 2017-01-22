@@ -283,6 +283,7 @@ button {
     position: relative;
     float: left;
     width: 100%;
+    background-color: white;
 }
 .wblock5 {
     width: 100%;
@@ -503,3 +504,215 @@ button {
     vertical-align: bottom;
     width: 30%;
 }
+.dostoplata {
+    float: left;
+    width: 100%;
+}
+.dblock1 {
+    padding: 50px 0;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.dblock2 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 1000px;
+}
+.dblock3 {
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.d2title {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.dblock4 {
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 3px;
+    padding: 25px;
+    height: 290px;
+    margin-bottom: 40px;
+    width: 45%;
+}
+.d5slogan {
+    height: 60px;
+    background-color: #192c35;
+    border-radius: 3px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.d5text {
+    font-size: 14px;
+    line-height: 16px;
+}
+.otzyvy {
+    float: left;
+    width: 100%;
+}
+.oblock1 {
+    padding: 50px 0;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.oblock2 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 1000px;
+}
+.o2title {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.oblock3 {
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.oblock4 {
+    background-color: rgba(255,255,255,0.79);
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(44,53,58,0.32);
+    margin-bottom: 50px;
+    width: 45%;
+}
+.o4img {
+    float: left;
+    width: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 25px;
+    height: 131px;
+    overflow: hidden;
+}
+.o4name {
+    float: left;
+    width: 349px;
+    background-color: #192c35;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.o4subtitle {
+    float: left;
+    width: 349px;
+    font-weight: 700;
+    line-height: 16px;
+}
+.o4text {
+    float: left;
+    width: 349px;
+}
+.kontakt {
+    float: left;
+    width: 100%;
+}
+.kblock1 {
+    background-color: #192c35;
+    background-image: url(../img/bg_skin.jpg);
+    text-align: justify;
+    padding: 22px 0;
+    border-top: 10px solid #192c35;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.kblock2 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.kblock3 {
+    width: 66%;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.k3slogan {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.k3logo {
+    height: 32px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.k3img {
+    margin: 0 10px;
+}
+.k3phone {
+    height: 60px;
+    margin: 20px 0;
+    font-size: 16px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.k3call {
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+}
+.k3span {
+    font-size: 10px;
+    top: -5px;
+    position: relative;
+}
+.k3numb {
+    font-size: 31px;
+}
+.k2right {
+    background-color: rgba(255,255,255,0.7);
+    padding: 25px;
+    border-radius: 3px;
+    width: 33%;
+}
+.k2form {
+    background-color: rgba(255,255,255,0.7);
+    padding: 25px;
+    border-radius: 3px;
+}
+.k2input {
+    outline: none;
+    width: 91%;
+    border: none;
+    height: 60px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 60px;
+    color: #2c353a;
+}
+
+
+
