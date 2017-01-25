@@ -61,7 +61,7 @@ body {
 .mli_img:hover {
     opacity: 0.65;
 }
-.parallax-mirror {
+/* .parallax-mirror {
   visibility: visible;
   z-index: -100;
   position: fixed;
@@ -79,7 +79,7 @@ body {
   height: 100%;
   width: 100%;
   max-width: none;
-}
+} */
 .swrapper {
 	height: 485px;
 	position: relative;
@@ -91,10 +91,6 @@ body {
 	overflow: hidden;
 	position: relative;
 	width: inherit;
-	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
 .swrapper > input {
 	display: none;
@@ -107,25 +103,19 @@ body {
 .swrapper .controls {
 	left: 50%;
 	margin-left: -98px;
-	position: absolute;
+	position: relative;
+    top: -50px;
+    z-index: 10;
 }
 .swrapper2 {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
     margin: 0 auto;
+    max-width: 1280px;
+    min-width: 1000px;
 }
-.swrapper label {
-	cursor: pointer;
-	display: inline-block;
-	height: 8px;
-	margin: 25px 12px 0 16px;
-	position: relative;
-	width: 8px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
-}
+
 .swrapper label:after {
 	border: 2px solid #666;
 	content: " ";
@@ -196,7 +186,7 @@ body {
 .wrapper {
   float: left;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 .wblock1 {
     float: left;
@@ -294,39 +284,76 @@ body {
     margin-left: 9px;
 }
 .w3right {
-    width: 33%;
+    width: 550px;
 }
 .w3phone {
-    background-color: rgba(115,115,115,0.79);
-    padding: 13px 25px 20px;
-    border-radius: 3px;
-    margin-bottom: 25px;
+    background-color: white;
+    padding: 20px 25px;
     float: left;
-    width: 100%;
+    width: 500px;
 }
 .w3call {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 22px;
     text-align: center;
 }
-.w3call__w3span {
-    vertical-align: super;
-    font-size: 10px;
+.w3h1 {
+    font-size: 42px;
+    line-height: 1.14286;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #333;
+    font-style: normal;
+    font-family: "myriad-set-pro_thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
 }
-.w3numb {
-    font-size: 27px;
-    font-weight: 700;
-    float: left;
-    width: 100%;
-    text-align: center;
+.w3h4 {
+    font-size: 21px;
+    line-height: 1.14286;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #333;
+    font-style: normal;
+    font-family: "myriad-set-pro_thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+.w3p {
+    margin: 20px 0px;
+    text-align: left;
+    font-family: "myriad-set-pro_thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    font-size: 18px;
+}
+.w3call__w3span {
+    font-family: "myriad-set-pro_thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+}
+.w3acp {
+    font-size: 14px;
+    line-height: 1.28583;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    font-family: "myriad-set-pro_thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.w3coli {
+    margin: 5px;
 }
 .w3form {
     background-color: rgba(255,255,255,0.7);
     padding: 25px;
     border-radius: 3px;
-    width: 100%;
-    margin-top: 111px;
+    width: 500px;
+    margin-top: 93px;
 }
 .w3slogan {
     border-radius: 3px;
@@ -346,12 +373,10 @@ body {
 }
 .w3post__w3input {
     outline: none;
-    font-family: Clear Sans, Calibri, Arial, sans-serif;
-    width: 92.5%;
+    font-family: "myriad-set-pro_thin", Arial, sans-serif;
     border: none;
-    height: 60px;
-    border-radius: 3px;
-    margin-bottom: 15px;
+    height: 0px;
+    margin-bottom: 6px;
     padding: 15px;
     font-size: 32px;
     line-height: 60px;
@@ -370,7 +395,7 @@ body {
     height: 32px;
     background-repeat: no-repeat;
     width: 100%;
-    margin: 55px auto;
+    margin: 0px auto;
     text-align: center;
     display: flex;
     justify-content: center;

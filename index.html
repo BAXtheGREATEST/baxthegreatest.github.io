@@ -5,11 +5,18 @@
         <title>iStand</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link href="favicon.ico" rel="shortcut icon">
+        <style>
+            @font-face {
+                font-family: myriad-set-pro_thin; /* Гарнитура шрифта */
+                src: url(fonts/myriad-set-pro_thin.ttf); /* Путь к файлу со шрифтом */
+            }
+            
+        </style>
     </head>
     <body>
-        <div class="parallax-mirror">
+        <!-- <div class="parallax-mirror">
             <img class="parallax-slider" src="img/slide_1.jpg">
-        </div>
+        </div> -->
         <div class="imenu" id="menu">
             <div class="imenu__mblock1 mblock1">
                 <div class="mblock1__mblock2 mblock2">
@@ -59,10 +66,26 @@
                 </div>
                 <div class="wblock__w3right w3right">
                     <div class="w3right__w3phone w3phone">
-                        <div class="w3phone__w3call w3call">Звоните с 8<span class="w3call__w3span">00</span>-20<span class="w3call__w3span">00</span>  -  7 дней в неделю</div>
-                        <div class="w3phone__w3numb w3numb">066-475-76-41</div>
-                    </div>
-                    <div class="w3right__w3form w3form">
+                        <div class="w3phone__w3call w3call">
+                            <h1 class="w3call__w3h1 w3h1">Универсальная подставка</h1>
+                            <h4 class="w3call__w3h4 w3h4">для планшетов, смартфонов и электронных книг</h4>
+                            <p class="w3call__w3p w3p">Яркий и полезный аксессуар для работы и дома
+                            <br>для взрослых и детей</p>
+                            <p class="w3call__w3p w3p">₴ 75,00 грн.</p>
+                        </div>
+                        <div class="w3call__w3avcol w3avcol">
+                            <p class="w3avcol__w3acp w3acp">Доступные цвета</p>
+                            <div class="w3acol__w3coli w3coli">
+                                <img src="/img/col-blc.png"/>
+                                <img src="/img/col-wht.png"/>
+                                <img src="/img/col-ros.png"/>
+                                <img src="/img/col-blu.png"/>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="w3call__w3p w3p">Живите удобно сегодня. Позвоните нам <span class="w3call__w3span">066 47 57 641</span>
+                            <br>Или мы позвоним ВАМ!</p>
+                        </div>
                         <form method="w3form__w3post w3post">
                             <input class="w3post__w3input" type="text" name="phone" value="" maxlength="20" placeholder="Номер телефона">
                             <input class="w3post__w3input" type="text" name="name" value="" maxlength="100" placeholder="Ваше имя">
