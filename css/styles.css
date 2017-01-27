@@ -683,20 +683,33 @@ button1 {
     font-size: 16px;
     margin: 32px 0;
 }
-#money {
-    background-position: -75px 12px;
+
+.preimushestvo {
+    float: left;
+    width: 100%;
+    padding-top: 60px;
 }
-#delivery {
-    background-position: -77px -63px;
+.pblock1 {
+    position: relative;
+    width: 100%;
 }
-#clock {
-    background-position: -164px 10px;
+.pblock2 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    max-width: 1280px;
+    min-width: 1000px;
+    height: 647px;
+    background-image: url(../img/preimushestvo_back.png);
+    background-repeat: no-repeat;
 }
+
 
 
 .coop {
     float: left;
     width: 100%;
+    padding-top: 60px;
 }
 .cblock1 {
     padding: 50px 0;
@@ -707,7 +720,7 @@ button1 {
 .cblock2 {
     width: 100%;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1280px;
     min-width: 1000px;
 }
 .cblock3 {
@@ -719,12 +732,12 @@ button1 {
 }
 .cblock2__title {
     font-size: 36px;
+    font-family: "myriad-set-pro_thin", Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
+    margin-left: 40px;
     margin-bottom: 40px;
     width: 100%;
-    padding-left: 13px;
-    padding-right: 13px;
 }
 .c3colleft {
     width: 50%;
@@ -774,11 +787,13 @@ button1 {
 .sright__title {
     margin-bottom: 10px;
     text-transform: initial;
-    font-size: 20px;
+    font-size: 34px;
     font-weight: 700;
+    font-family: "myriad-set-pro_thin", Arial, sans-serif;
 }
 .sright__text {
-    font-size: 14px;
+    font-size: 21px;
+    font-family: "myriad-set-pro_thin", Arial, sans-serif;
 }
 #order {
     background-position: 10px 10px;
@@ -870,31 +885,36 @@ button1 {
 .dostoplata {
     float: left;
     width: 100%;
+    padding-top: 60px;
 }
 .dblock1 {
-    padding: 50px 0;
     position: relative;
-    float: left;
     width: 100%;
 }
 .dblock2 {
     width: 100%;
     margin: 0 auto;
-    max-width: 1200px;
+    padding: 50px 0px;
+    max-width: 1280px;
     min-width: 1000px;
+    background-image: url(../img/dostoplata_back.png);
+    background-repeat: no-repeat;
+    height: 640px;
 }
 .dblock3 {
     width: 100%;
-    padding-left: 13px;
-    padding-right: 13px;
     display: flex;
     justify-content: space-between;
 }
 .d2title {
     font-size: 36px;
+    font-family: "myriad-set-pro_thin", Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(255,255,255,0.7);
 }
 .dblock4 {
     background-color: rgba(255,255,255,0.7);
