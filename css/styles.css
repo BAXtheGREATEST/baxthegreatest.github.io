@@ -55,31 +55,18 @@ body {
 .mblock2__ma:hover {
     opacity: 0.65;
 }
+.mblock3 {
+    margin: 15px;
+}
 .mli_img {
     padding-top: 8px;
 }
 .mli_img:hover {
     opacity: 0.65;
 }
-/* .parallax-mirror {
-  visibility: visible;
-  z-index: -100;
-  position: fixed;
-  top: 60px;
-  left: 0px;
-  overflow: hidden;
-  transform: translate3d(0px, 0px, 0px);
-  height: 100%;
-  width: 100%;
+.a__social:hover {
+    opacity: 0.65;
 }
-.parallax-slider {
-  transform: translate3d(0px, 0px, 0px);
-  top: -48.3px;
-  left: -165px;
-  height: 100%;
-  width: 100%;
-  max-width: none;
-} */
 .swrapper {
 	height: 485px;
 	position: relative;
@@ -687,7 +674,6 @@ button1 {
 .preimushestvo {
     float: left;
     width: 100%;
-    padding-top: 60px;
 }
 .pblock1 {
     position: relative;
@@ -696,10 +682,26 @@ button1 {
 .pblock2 {
     width: 100%;
     margin: 0 auto;
+    max-width: 1280px;
+    min-width: 1000px;
+    padding-top: 50px;
+}
+.p2title {
+    font-size: 36px;
+    font-family: "myriad-set-pro_thin", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+.pblock3 {
+    width: 100%;
+    margin: 0 auto;
     padding: 50px 0px;
     max-width: 1280px;
     min-width: 1000px;
-    height: 647px;
+    height: 547px;
     background-image: url(../img/preimushestvo_back.png);
     background-repeat: no-repeat;
 }
@@ -709,10 +711,8 @@ button1 {
 .coop {
     float: left;
     width: 100%;
-    padding-top: 60px;
 }
 .cblock1 {
-    padding: 50px 0;
     position: relative;
     float: left;
     width: 100%;
@@ -725,18 +725,20 @@ button1 {
 }
 .cblock3 {
     width: 100%;
-    padding-left: 13px;
-    padding-right: 13px;
     display: flex;
+    padding-top: 50px;
     justify-content: space-between;
+}
+.prac {
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 .cblock2__title {
     font-size: 36px;
     font-family: "myriad-set-pro_thin", Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    margin-left: 40px;
-    margin-bottom: 40px;
+    text-align: center;
     width: 100%;
 }
 .c3colleft {
@@ -894,17 +896,17 @@ button1 {
 .dblock2 {
     width: 100%;
     margin: 0 auto;
-    padding: 50px 0px;
+    padding-top: 50px;
     max-width: 1280px;
     min-width: 1000px;
     background-image: url(../img/dostoplata_back.png);
     background-repeat: no-repeat;
-    height: 640px;
+    height: 590px;
 }
 .dblock3 {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .d2title {
     font-size: 36px;
@@ -926,7 +928,8 @@ button1 {
 }
 .d5slogan {
     height: 60px;
-    background-color: #192c35;
+    background-color: black;
+    opacity: 0.85;
     border-radius: 3px;
     line-height: 60px;
     font-weight: 700;
@@ -936,8 +939,8 @@ button1 {
     font-size: 20px;
 }
 .d5text {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 17px;
 }
 .otzyvy {
     float: left;
@@ -957,8 +960,11 @@ button1 {
 }
 .o2title {
     font-size: 36px;
+    font-family: "myriad-set-pro_thin", Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
     margin-bottom: 40px;
 }
 .oblock3 {
@@ -1011,14 +1017,16 @@ button1 {
     width: 100%;
 }
 .kblock1 {
-    background-color: #192c35;
+    background-color: black;
     background-image: url(../img/bg_skin.jpg);
     text-align: justify;
+    max-width: 1280px;
+    min-width: 1100px;
+    margin: 0 auto;
     padding: 22px 0;
-    border-top: 10px solid #192c35;
+    border-top: 10px solid black;
     position: relative;
-    float: left;
-    width: 100%;
+    opacity: 0.85;
 }
 .kblock2 {
     width: 100%;
@@ -1026,12 +1034,22 @@ button1 {
     max-width: 1200px;
     min-width: 1000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: column;
 }
 .kblock3 {
-    width: 66%;
     padding-left: 13px;
     padding-right: 13px;
+}
+.reserved {
+    text-align: center;
+    margin: 0 auto;
+}
+.res__text {
+    color: white;
+}
+.res__a {
+    text-decoration: none;
 }
 .k3slogan {
     margin-top: 25px;
@@ -1052,7 +1070,6 @@ button1 {
     margin: 0 10px;
 }
 .k3phone {
-    height: 60px;
     margin: 20px 0;
     font-size: 16px;
     float: left;
@@ -1061,8 +1078,9 @@ button1 {
     width: 100%;
 }
 .k3call {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+    line-height: 25px;
     width: 100%;
 }
 .k3span {
@@ -1074,28 +1092,26 @@ button1 {
     font-size: 31px;
 }
 .k2right {
-    background-color: rgba(255,255,255,0.7);
-    padding: 25px;
-    border-radius: 3px;
-    width: 33%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-.k2form {
-    background-color: rgba(255,255,255,0.7);
-    padding: 25px;
-    border-radius: 3px;
-}
-.k2input {
+.k3post__k3input {
     outline: none;
-    width: 91%;
+    font-family: "myriad-set-pro_thin", Arial, sans-serif;
     border: none;
-    height: 60px;
-    border-radius: 3px;
-    margin-bottom: 15px;
+    height: 18px;
+    width: 300px;
+    margin-bottom: 6px;
     padding: 15px;
-    font-size: 16px;
+    font-size: 23px;
     line-height: 60px;
     color: #2c353a;
+    background-color: #dfdfdf;
 }
-
+.button_big2 {
+    padding-top: 6px;
+}
 
 
