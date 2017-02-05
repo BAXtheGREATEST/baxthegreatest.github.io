@@ -19,5 +19,8 @@
   },
   "keywords": [
     "stand"
-  ]
+  ],
+  "dependencies": {
+    "node-mandrill": "^1.0.1"
+  }
 }

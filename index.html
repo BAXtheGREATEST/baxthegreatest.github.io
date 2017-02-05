@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
-       
+
     <head>
         <title>iStand</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/js-style.js"></script>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link href="favicon.ico" rel="shortcut icon">
         <style>
@@ -76,20 +78,33 @@
                             <div class="w3call__w3avcol w3avcol">
                                 <p class="w3avcol__w3acp w3acp">Доступные цвета</p>
                                 <div class="w3acol__w3coli w3coli">
-                                    <img src="/img/col-blc.png"/>
-                                    <img src="/img/col-wht.png"/>
-                                    <img src="/img/col-ros.png"/>
-                                    <img src="/img/col-blu.png"/>
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" class="navigation__list-item-check" id="s1" />
+                                            <label class="navigation__list-item-state" for="s1"></label>
+                                            <img src="/img/col-blc.png"/>
+                                        </li>
+                                        <li>
+                                            <img src="/img/col-wht.png"/>
+                                        </li>
+                                        <li>
+                                            <img src="/img/col-ros.png"/>
+                                        </li>
+                                        <li>
+                                            <img src="/img/col-blu.png"/>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div>
                                 <p class="w3call__w3p w3p">Позвоните нам <span class="w3call__w3span">066 47 57 641, 096 061 89 56</span>
                                 <br>Или мы позвоним ВАМ!</p>
                             </div>
-                            <form method="w3form__w3post w3post">
+                            
+                            <form class="w3form__w3post w3post" action="http://formspree.io/baxthegreatest@yandex.ru" id="user-recall" method="POST">
                                 <input class="w3post__w3input user-phone--js" type="text" name="phone" value="" maxlength="20" placeholder="Номер телефона">
-                                <input class="w3post__w3input" type="text" name="name" value="" maxlength="100" placeholder="Ваше имя">
-                                <button  name="feedback" class="button_big send-btn--js">Оформить заказ</button>
+                                <input class="w3post__w3input user-name--js" type="text" name="name" value="" maxlength="100" placeholder="Ваше имя">
+                                <button name="feedback" type="submit" value="Send" class="button_big send-btn--js">Оформить заказ</button>
                             </form>
                         </div>
                     </div>
@@ -399,7 +414,7 @@
                             </div>
                         </div>
                 </div>
-                <div class="reserved"><a class="res__a" href=""><p><font  class="res__text">© All rights reserved. Designed by KasBaxStudio</font></p></a></div>
+                <div class="reserved"><a class="res__a" href="mailto:baxthegreatest@yandex.ru"><p class="res__text">© All rights reserved. Designed by KasBaxStudio</p></a></div>
             </div>
         </div>
     </body>
