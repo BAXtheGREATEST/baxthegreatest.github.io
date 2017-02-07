@@ -168,6 +168,7 @@ body {
 }
 .w3h1 {
     font-size: 42px;
+    cursor: default;
     line-height: 1.14286;
     font-weight: 200;
     letter-spacing: 1px;
@@ -178,6 +179,7 @@ body {
 }
 .w3h4 {
     font-size: 21px;
+    cursor: default;
     line-height: 1.14286;
     font-weight: 200;
     letter-spacing: 1px;
@@ -188,6 +190,7 @@ body {
 }
 .w3p {
     margin: 20px 0px;
+    cursor: default;
     font-family: "myriad-set-pro_thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
     font-size: 18px;
@@ -198,6 +201,7 @@ body {
 }
 .w3acp {
     font-size: 14px;
+    cursor: default;
     line-height: 1.28583;
     font-weight: 400;
     letter-spacing: 0;
@@ -346,6 +350,7 @@ button {
 .frontp {
     font-family: "myriad-set-pro_thin", Arial, sans-serif;
     font-size: 23px;
+    cursor: default;
     color: #2c353a;
     margin-top: 14px;
 }
@@ -354,6 +359,7 @@ button {
     font-size: 23px;
     color: #2c353a;
     text-align: left;
+    cursor: default;
     margin-left: 33px;
     margin-top: 14px;
     color: #f2f2f2;
@@ -361,6 +367,7 @@ button {
 .backp {
     font-family: "myriad-set-pro_thin", Arial, sans-serif;
     font-size: 23px;
+    cursor: default;
     color: #2c353a;
     margin-top: 180px;
 }
@@ -384,17 +391,20 @@ button {
 }
 .r6p {
     font-weight: bold;
+    cursor: default;
     font-size: 21px;
     margin: 7px;
     color: snow;
 }
 .r6sp {
+    cursor: default;
     font-size: 17px;
     margin: 5px;
     font-family: inherit;
     color: snow;
 }
 .r6p2 {
+    cursor: default;
     font-size: 19px;
     margin: 7px;
     color: snow;
@@ -413,17 +423,14 @@ button {
 
 .preimushestvo {
     float: left;
-    width: 100%;
 }
 .pblock1 {
     position: relative;
-    width: 100%;
 }
 .pblock2 {
     width: 100%;
     margin: 0 auto;
     max-width: 1280px;
-    min-width: 1000px;
     padding-top: 50px;
 }
 .p2title {
@@ -433,21 +440,31 @@ button {
     font-weight: 400;
     margin-bottom: 40px;
     text-align: center;
-    width: 100%;
+    cursor: default;
 }
 .pblock3 {
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px 0px;
-    max-width: 1280px;
-    min-width: 1000px;
-    height: 547px;
-    background-image: url(../img/preimushestvo_back.png);
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-
-
-
+.pblock3__img1 {
+    background-image: url(../img/pre1-1.png);
+    background-repeat: no-repeat;
+    width: 378px;
+    height: 378px;
+}
+.pblock3__img2 {
+    background-image: url(../img/pre1-2.png);
+    background-repeat: no-repeat;
+    width: 378px;
+    height: 378px;
+}
+.pblock3__img3 {
+    background-image: url(../img/pre1-3.png);
+    background-repeat: no-repeat;
+    width: 524px;
+    height: 378px;
+}
 .coop {
     float: left;
 }
@@ -462,6 +479,7 @@ button {
     flex-wrap: wrap;
 }
 .cblock2__title {
+    cursor: default;
     font-size: 36px;
     font-family: "myriad-set-pro_thin", Arial, sans-serif;
     text-transform: uppercase;
@@ -501,6 +519,7 @@ button {
     border-radius: 40px;
 }
 .snumb2 {
+    cursor: default;
     text-align: center;
     color: #fff;
     display: block;
@@ -509,11 +528,13 @@ button {
     line-height: 65px;
 }
 .sright {
+    cursor: default;
     width: 60%;
     float: right;
     padding: 5px 0;
 }
 .sright__title {
+    cursor: default;
     margin-bottom: 10px;
     text-transform: initial;
     font-size: 34px;
@@ -541,31 +562,25 @@ button {
     width: 100%;
     padding-top: 60px;
 }
-.dblock1 {
-    position: relative;
-    width: 100%;
-}
 .dblock2 {
-    width: 100%;
     margin: 0 auto;
     padding-top: 50px;
     background-image: url(../img/dostoplata_back.png);
     min-height: 590px;
 }
 .dblock3 {
-    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .d2title {
+    cursor: default;
     font-size: 36px;
     font-family: "myriad-set-pro_thin", Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 40px;
     text-align: center;
-    width: 100%;
     background-color: rgba(255,255,255,0.7);
 }
 .dblock4 {
@@ -577,6 +592,7 @@ button {
     width: 45%;
 }
 .d5slogan {
+    cursor: default;
     height: 60px;
     background-color: black;
     opacity: 0.85;
@@ -589,6 +605,7 @@ button {
     font-size: 20px;
 }
 .d5text {
+    cursor: default;
     font-size: 16px;
     line-height: 17px;
 }
@@ -684,6 +701,7 @@ button {
     width: 100%;
 }
 .k3call {
+    cursor: default;
     font-size: 23px;
     font-family: Arial, sans-serif;
     line-height: 25px;
@@ -695,6 +713,7 @@ button {
     position: relative;
 }
 .k3numb {
+    cursor: default;
     font-size: 31px;
 }
 .k2right {
@@ -731,16 +750,6 @@ button {
 }
 .res__a {
     text-decoration: none;
-}
-
-
-@media (min-width: 320px) {
-    body {
-        
-    }
-}
-@media (min-width: 768px) {
-
 }
 .navigation__list-item-check {
     display: none;
