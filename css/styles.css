@@ -387,7 +387,6 @@ button {
     height: 124px;
     text-align: center;
     padding: 45px 0;
-
 }
 .r6p {
     font-weight: bold;
@@ -419,8 +418,6 @@ button {
 .r6img {
     padding: 4px;
 }
-
-
 .preimushestvo {
     float: left;
 }
@@ -750,17 +747,4 @@ button {
 }
 .res__a {
     text-decoration: none;
-}
-.navigation__list-item-check {
-    display: none;
-}
-.navigation__list-item-state {
-    background-color: red;
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    border-radius: 50%;
-}
-.navigation__list-item-check:checked + .navigation__list-item-state {
-    background-color: blue;
 }
