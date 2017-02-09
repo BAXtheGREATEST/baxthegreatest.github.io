@@ -4,7 +4,7 @@ $(document).ready(
             userName = document.querySelector('.user-name--js');
         if(!userPhone.value || !userName.value) {
             $.ajax({
-                url: "https://formspree.io/baxthegreatest@yandex.ru",
+                url: "https://formspree.io/baxthegreatest@gmail.com",
                 method: "POST",
                 data: $(this).serialize(),
                 dataType: "json"

@@ -301,6 +301,9 @@ button {
     background-image: url(../img/hor1back.jpg);
     backface-visibility: hidden;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+
 }
 .w3hor__front2 {
     position: absolute;
@@ -316,6 +319,8 @@ button {
     background-image: url(../img/hor2back.jpg);
     backface-visibility: hidden;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
 }
 .w3hor__front3 {
     position: absolute;
@@ -331,6 +336,8 @@ button {
     background-image: url(../img/hor3back.jpg);
     backface-visibility: hidden;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
 }
 .w3hor__front4 {
     position: absolute;
@@ -346,6 +353,8 @@ button {
     background-image: url(../img/hor4back.jpg);
     backface-visibility: hidden;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
 }
 .frontp {
     font-family: "myriad-set-pro_thin", Arial, sans-serif;
@@ -717,6 +726,7 @@ button {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .k3post {
     display: flex;
