@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="us">
 
     <head>
+        <meta charset="UTF-8">
         <title>iStand</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/js-style.js"></script>
@@ -26,7 +27,7 @@
                     <li class="mblock1__m1li"><a href="#kontakty" class="mblock1__m1li-m1a">Контакты</a></li>
                     <div class="mblock1__m1social m1social">
                         <a class="m1social__linksocial linksocial" href="https://vk.com/id407821479"><img src="/img/icon_vkontakte.png" alt="ВКонтакте" title="Мы в ВКонтакте"/></a>
-                        <a class="m1social__linksocial linksocial" href=""><img src="/img/icon_facebook.png" alt="Facebook" title="Мы в Facebook"/></a>
+                        <a class="m1social__linksocial linksocial" href="https://www.facebook.com/IStand-1708785806080139/"><img src="/img/icon_facebook.png" alt="Facebook" title="Мы в Facebook"/></a>
                         <a class="m1social__linksocial linksocial" href="https://www.instagram.com/istand_sale/"><img src="/img/icon_instagram.png" alt="Instagram" title="Мы в Instagram"/></a>
                     </div>
                 </ul>
@@ -75,33 +76,54 @@
                                 <br>для взрослых и детей. Живите удобно сегодня.</p>
                                 <p class="w3call__w3p w3p">₴ 75,00 грн.</p>
                             </div>
-                            <div class="w3call__w3avcol w3avcol">
-                                <p class="w3avcol__w3acp w3acp">Доступные цвета</p>
-                                <div class="w3acol__w3coli w3coli">
-                                    <ul class="w3coli__w3ul w3ul">
-                                        <li class="w3ul__w3li w3li">
-                                            <!--<input type="checkbox" class="navigation__list-item-check" id="s1" />
-                                            <label class="navigation__list-item-state" for="s1"></label>-->
-                                            <img src="/img/col-blc.png" alt="Черный" title="Черный"/>
-                                        </li>
-                                        <li class="w3ul__w3li w3li">
-                                            <img src="/img/col-wht.png" alt="Белый" title="Белый"/>
-                                        </li>
-                                        <li class="w3ul__w3li w3li">
-                                            <img src="/img/col-ros.png"  alt="Розовый" title="Розовый"/>
-                                        </li>
-                                        <li class="w3ul__w3li w3li">
-                                            <img src="/img/col-blu.png"  alt="Голубой" title="Голубой"/>
-                                        </li class="w3ul__w3li w3li">
-                                    </ul>
-                                </div>
-                            </div>
-                            <div>
-                                <p class="w3call__w3p w3p">Позвоните нам <span class="w3call__w3span">066 47 57 641, 096 061 89 56</span>
-                                <br>Или мы позвоним ВАМ!</p>
-                            </div>
-                            
                             <form class="w3form__w3post w3post" action="https://formspree.io/baxthegreatest@gmail.com" id="user-recall" method="POST">
+                                <fieldset class="w3call__w3avcol w3avcol">
+                                    <legend class="w3avcol__w3acp w3acp">Доступные цвета</legend>
+                                        <ul class="w3coli__w3ul w3ul">
+                                            <li class="w3ul__w3li w3li">
+                                                <!--<input type="checkbox" class="navigation__list-item-check" id="s1" />
+                                                <label class="navigation__list-item-state" for="s1"></label>-->
+                                                <input type="radio" value="main.black" id="main_black" name="Color" class="visuallyhidden" checked="checked">
+                                                <label for="main_black" class="main">
+                                                    <span class="colornav-swatch w3coli__collectiongrid-colornavswatch">
+                                                        <img src="/img/col-blc.png" alt="Черный" title="Черный" class="w3img colornav-swatch w3coli__collectiongrid-colornavswatch"/>
+                                                        <figcation class="colornav__label-hidden">Черный</figcation>
+                                                    </span>
+                                                </label>
+                                            </li>
+                                            <li class="w3ul__w3li w3li">
+                                                <input type="radio" value="Белый" id="main_white" name="Color" class="visuallyhidden">
+                                                <label for="main_white" class="main">
+                                                    <span class="colornav-swatch w3coli__collectiongrid-colornavswatch">
+                                                        <img src="/img/col-wht.png" alt="Белый" title="Белый" class="w3img colornav-swatch w3coli__collectiongrid-colornavswatch"/>
+                                                        <figcation class="colornav__label-hidden">Белый</figcation>
+                                                    </span>
+                                                </label>
+                                            </li>
+                                            <li class="w3ul__w3li w3li">
+                                                <input type="radio" value="Розовый" id="main_pink" name="Color" class="visuallyhidden">
+                                                <label for="main_pink" class="main">
+                                                    <span class="colornav-swatch w3coli__collectiongrid-colornavswatch">
+                                                        <img src="/img/col-ros.png"  alt="Розовый" title="Розовый" class="w3img colornav-swatch w3coli__collectiongrid-colornavswatch"/>
+                                                        <figcation class="colornav__label-hidden">Розовый</figcation>
+                                                    </span>
+                                                </label>
+                                            </li>
+                                            <li class="w3ul__w3li w3li">
+                                                <input type="radio" value="Голубой" id="main_blue" name="Color" class="visuallyhidden">
+                                                <label for="main_blue" class="main">
+                                                    <span class="colornav-swatch w3coli__collectiongrid-colornavswatch">
+                                                        <img src="/img/col-blu.png"  alt="Голубой" title="Голубой" class="w3img colornav-swatch w3coli__collectiongrid-colornavswatch"/>
+                                                        <figcation class="colornav__label-hidden">Голубой</figcation>
+                                                    </span>
+                                                </label>
+                                            </li class="w3ul__w3li w3li">
+                                        </ul>
+                                </fieldset>
+                                <div>
+                                    <p class="w3call__w3p w3p">Позвоните нам <span class="w3call__w3span">066 47 57 641, 096 061 89 56</span>
+                                    <br>Или мы позвоним ВАМ!</p>
+                                </div>
                                 <input class="w3post__w3input user-phone--js" type="text" name="phone" value="" maxlength="20" placeholder="Номер телефона">
                                 <input class="w3post__w3input user-name--js" type="text" name="name" value="" maxlength="100" placeholder="Ваше имя">
                                 <button name="feedback" type="submit" value="Send" class="button_big send-btn--js">Оформить заказ</button>
@@ -417,7 +439,7 @@
                         </form>
                         <div class="mblock2__mblock3 m1social">
                             <a class="m1social__linksocial linksocial" href="https://vk.com/id407821479" class><img src="/img/icon_vkontakte.png" alt="ВКонтакте" title="Мы в ВКонтакте"/></a>
-                            <a class="m1social__linksocial linksocial" href=""><img src="/img/icon_facebook.png" alt="Facebook" title="Мы в Facebook"/></a>
+                            <a class="m1social__linksocial linksocial" href="https://www.facebook.com/IStand-1708785806080139/"><img src="/img/icon_facebook.png" alt="Facebook" title="Мы в Facebook"/></a>
                             <a class="m1social__linksocial linksocial" href="https://www.instagram.com/istand_sale/"><img src="/img/icon_instagram.png" alt="Instagram" title="Мы в Instagram"/></a>
                         </div>
                     </div>

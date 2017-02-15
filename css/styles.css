@@ -186,7 +186,7 @@ body {
     margin: 0;
 }
 .w3p {
-    margin: 20px 0px;
+    margin: 19px 0px;
     cursor: default;
     font-family: "myriad-set-pro_thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
@@ -195,6 +195,11 @@ body {
 .w3call__w3span {
     font-family: "myriad-set-pro_thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 21px;
+}
+.w3avcol {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 .w3acp {
     font-size: 14px;
@@ -207,11 +212,9 @@ body {
     padding: 0;
     font-family: "myriad-set-pro_thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.w3coli {
+.w3ul {
     margin: 5px;
     width: 100px;
-}
-.w3ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -220,6 +223,49 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+.visuallyhidden {
+    display: none;
+}
+.colornav__label-hidden {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    -webkit-clip-path: inset(0 0 99.9% 99.9%);
+    clip-path: inset(0 0 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+.colornav-swatch {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #333;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 1.33333em;
+    padding: 3px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+.w3coli__collectiongrid-colornavswatch {
+    width: 26px;
+    height: 26px;
+    padding: 2px;
+    margin-bottom: 12px;
+    outline: none;
+}
+.visuallyhidden:checked + .main .colornav-swatch img {
+    border: 1px solid #0070c9;
+    border-radius: 50%;
+}
+.error {
+    border: 1px solid red !important;
 }
 .w3post {
     display: -webkit-box;
