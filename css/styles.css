@@ -246,7 +246,6 @@ body {
     color: #333;
     cursor: pointer;
     float: left;
-    margin-bottom: 1.33333em;
     padding: 3px;
     position: relative;
     width: 40px;
@@ -257,7 +256,6 @@ body {
     width: 26px;
     height: 26px;
     padding: 2px;
-    margin-bottom: 12px;
     outline: none;
 }
 .visuallyhidden:checked + .main .colornav-swatch img {
