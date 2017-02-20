@@ -861,3 +861,39 @@ button {
 .res__a {
     text-decoration: none;
 }
+@media screen and (max-device-width: 1024px){
+  .w3right {
+      text-align: center;
+  }
+  .w3post {
+      align-items: center;
+  }
+  .w3fliper{
+      width: 640px;
+      margin: 0 auto;
+  }
+  .rabotka {
+      width: 640px;
+      margin: 0 auto;
+  }
+  .preimushestvo {
+      width: 640px;
+      margin: 0 auto;
+      float: none;
+  }
+  .coop {
+      width: 640px;
+      margin: 0 auto;
+      float: none;
+  }
+  .mlinologo {
+      display: none;
+  }
+  .dblock2 {
+      background-image: none;
+  }
+  .rnone {
+      display: none;
+  }
+}
+
