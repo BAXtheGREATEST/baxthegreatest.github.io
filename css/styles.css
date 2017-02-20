@@ -895,5 +895,7 @@ button {
   .rnone {
       display: none;
   }
+  .rabotka {
+    background-image: url(../img/rabotkabackmobile.png);
+    }
 }
-
