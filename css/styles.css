@@ -861,10 +861,16 @@ button {
 .res__a {
     text-decoration: none;
 }
-@media screen and (max-device-width: 1024px){
+.vk_com {
+    margin: 0 auto;
+}
+@media screen and (max-device-width: 1280px){
   .w3right {
       text-align: center;
   }
+  /* .imenu {
+      width: 640px;
+  } */
   .w3post {
       align-items: center;
   }
