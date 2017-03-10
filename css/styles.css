@@ -861,9 +861,13 @@ button {
 .res__a {
     text-decoration: none;
 }
-.vk_com {
-    margin: 0 auto;
+.kontakt_otzyvy {
+    display: flex;
+    justify-content: space-around;
 }
+/* .vk_com {
+    margin: 0 auto;
+} */
 @media screen and (max-device-width: 1280px){
   .w3right {
       text-align: center;
