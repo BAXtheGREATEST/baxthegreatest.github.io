@@ -374,19 +374,21 @@
             </div>
             <div class="kontakt" id="kontakty">
                 <div class="kontakt_otzyvy">
-                    <div id="vk_comments" class="vk_com"></div>
-                    <script type="text/javascript">
-                        VK.Widgets.Comments("vk_comments", {limit: 10, width: "550", attach: "*"});
-                    </script>
-                    <div id="fb-root"></div>
-                    <script>(function(d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0];
-                        if (d.getElementById(id)) return;
-                        js = d.createElement(s); js.id = id;
-                        js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8";
-                        fjs.parentNode.insertBefore(js, fjs);
-                        }(document, 'script', 'facebook-jssdk'));
-                    </script>
+                    <div class="kontakt_vk">
+                        <div id="vk_comments" class="vk_com"></div>
+                        <script type="text/javascript">
+                            VK.Widgets.Comments("vk_comments", {limit: 10, width: "550", attach: "*"});
+                        </script>
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8";
+                            fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));
+                        </script>
+                    </div>
                     <div class="fb-comments" data-href="https://baxthegreatest.github.io/" data-width="550" data-numposts="5"></div>
                 </div>
                 <div class="kontakt__kblock1 kblock1">
