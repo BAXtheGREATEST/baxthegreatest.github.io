@@ -869,9 +869,10 @@ button {
 .fb-comments {
     background-color: white;
 }
-/* .vk_com {
+.vk_com {
     margin: 0 auto;
-} */
+    padding-bottom: 5px;
+}
 @media screen and (max-device-width: 1280px){
   .w3right {
       text-align: center;
