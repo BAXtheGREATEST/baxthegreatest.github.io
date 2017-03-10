@@ -864,6 +864,10 @@ button {
 .kontakt_otzyvy {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fb-comments {
+    background-color: white;
 }
 /* .vk_com {
     margin: 0 auto;
