@@ -15,7 +15,7 @@ $(document).ready(
 
         if(!userPhone.value || !userName.value) {
             $.ajax({
-                url: "https://formspree.io/baxthegreatest@gmail.com",
+                url: "https://formspree.io/istandassistance@gmail.com",
                 method: "POST",
                 data: $(this).serialize(),
                 dataType: "json"
